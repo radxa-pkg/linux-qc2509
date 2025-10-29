@@ -1,4 +1,4 @@
-linux-qc2509 (0.1.0-1) UNRELEASED; urgency=medium
+linux-qc2509 (6.8.12-1) UNRELEASED; urgency=medium
 
   * Add initial Debian packaging support
 

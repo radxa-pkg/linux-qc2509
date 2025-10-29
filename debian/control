@@ -18,33 +18,35 @@ Build-Depends: debhelper (>=12~),
                rsync,
                zstd,
 
-Package: linux-image
+Package: linux-image-radxa-airbox-q900
 Architecture: all
 Section: kernel
 Priority: optional
-Provides: linux-image
+Provides: linux-image,
+          linux-image-qcom (= 1:0.0.1-1)
 Depends: radxa-overlays-dkms,
          linux-image-${binary:Version}-qc2509,
          ${misc:Depends},
-Description: Radxa Linux meta-package for new product
+Description: Radxa Linux meta-package for Radxa AIRbox Q900
  This is the meta-package for Linux kernel.
 
-Package: linux-headers
+Package: linux-headers-radxa-airbox-q900
 Architecture: all
 Section: kernel
 Priority: optional
-Provides: linux-headers
+Provides: linux-headers,
+          linux-headers-qcom (= 1:0.0.1-1)
 Depends: linux-headers-${binary:Version}-qc2509,
          ${misc:Depends},
-Description: Radxa Linux headers meta-package for new product
+Description: Radxa Linux headers meta-package for Radxa AIRbox Q900
  This is the meta-package for Linux headers.
 
-Package: linux-libc-dev
+Package: linux-libc-dev-radxa-airbox-q900
 Architecture: all
 Section: kernel
 Priority: optional
-Provides: linux-libc-dev
-Depends: linux-libc-dev-${binary:Version}-qc2509,
+Provides: linux-libc-dev-qcom (= 1:0.0.1-1)
+Depends: linux-libc-dev (= ${binary:Version}),
          ${misc:Depends},
-Description: Radxa Linux libc-dev meta-package for new product
+Description: Radxa Linux libc-dev meta-package for Radxa AIRbox Q900
  This is the meta-package for Linux libc-dev.
