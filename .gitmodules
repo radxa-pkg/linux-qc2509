@@ -1,4 +1,4 @@
 [submodule "src"]
 	path = src
 	url = https://github.com/radxa/kernel.git
-	branch = Ubuntu-qcom-6.8.0-1055.55
+	branch = Ubuntu-qcom-6.8.0-1057.58
