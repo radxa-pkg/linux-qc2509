@@ -1,2 +1,3 @@
 linux/0001-feat-Radxa-common-kernel-config.patch
 linux/0002-feat-Radxa-custom-kernel-config.patch
+linux/0003-net-phy-qca808x-add-support-for-radxa-standard-led-d.patch
