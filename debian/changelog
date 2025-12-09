@@ -1,3 +1,13 @@
+linux-qc2509 (6.8.12-2) unstable; urgency=medium
+
+  [ chongbiao Chen ]
+  * chore: update to Ubuntu-qcom-6.8.0-1057.58
+
+  [ github-actions[bot] ]
+  * chore: update submodules
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 09 Dec 2025 02:29:41 +0000
+
 linux-qc2509 (6.8.12-1) unstable; urgency=medium
 
   [ "Radxa Computer Co., Ltd" ]
