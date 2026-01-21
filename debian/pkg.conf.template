@@ -1,0 +1,8 @@
+{
+  "*": {
+    "Releases": [
+      "qcs9075-noble",
+      "qcs9075-noble-test"
+    ]
+  }
+}
