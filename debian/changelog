@@ -1,3 +1,15 @@
+linux-qc2509 (6.8.12-5) unstable; urgency=medium
+
+  [ Stephen Chen ]
+  * feat: Use zstd compression for kernel modules
+  * chore: update to Ubuntu-qcom-6.8.0-1066.67
+  * chore: update submodules
+
+  [ Chongbiao Chen ]
+  * feat: add radxa-dragon-qcs9075 packages
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 07 Apr 2026 09:34:53 +0000
+
 linux-qc2509 (6.8.12-4) unstable; urgency=medium
 
   [ ZHANG Yuntian ]
