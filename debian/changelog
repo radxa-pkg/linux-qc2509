@@ -1,3 +1,10 @@
+linux-qc2509 (6.8.12-7) unstable; urgency=medium
+
+  [ github-actions[bot] ]
+  * chore: update submodules
+
+ -- "Radxa Computer (Shenzhen) Co., Ltd." <dev@radxa.com>  Wed, 14 Oct 2026 02:37:45 +0000
+
 linux-qc2509 (6.8.12-6) unstable; urgency=medium
 
   [ dependabot[bot] ]
